@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+option java_package = "com.example.alarmclock";
+
+message TimesOfAlarm {
+  repeated int64 times_set = 1;
+}
